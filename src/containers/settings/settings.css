@@ -1,0 +1,67 @@
+.settings {
+  height: 90vh;
+  overflow: auto;
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  font-size: 1.1rem;
+  padding: 1.5rem;
+}
+.inputForm {
+  height: 45vh;
+  width: 30vw;
+  box-shadow: 5px 5px 5px 5px rgba(0, 0, 0, 0.4);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin: 2rem;
+}
+
+.line {
+  box-sizing: border-box;
+  padding: 0.2rem;
+  margin: 0.2rem;
+}
+.settings input::placeholder {
+  color: blue;
+}
+.change {
+  width: 50%;
+  margin: 5px auto;
+  margin-top: 15px;
+  margin-bottom: 15px;
+  padding: 10px;
+  border: 1px inset rgba(00, 00, 00, 0.8);
+  border-radius: 5px;
+  background: rgba(0, 0, 0, 0);
+  font-weight: bold;
+}
+.change:hover {
+  opacity: 0.5;
+  cursor: pointer;
+}
+.change:active {
+  transform: translateY(4px);
+}
+.settings .hide {
+  display: none;
+}
+@media (max-width: 999px) {
+  .settings {
+    width: 90vw;
+    padding: 0;
+  }
+  .inputForm {
+    height: 60vh;
+    width: 60vw;
+    box-shadow: 5px 5px 5px 5px rgba(0, 0, 0, 0.4);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 2rem;
+  }
+}

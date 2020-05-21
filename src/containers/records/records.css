@@ -1,0 +1,44 @@
+.record tr {
+  position: absolute;
+  width: 60vw;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin: 0 auto;
+  margin-top: 5px;
+  border: 2px solid #333;
+  background-color: #d291bc;
+}
+.record th {
+  border: none;
+}
+.checkboxes {
+  margin: 0 auto;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  width: 50vw;
+}
+.record div {
+  margin: 0 auto;
+}
+.record input[type='text'] {
+  width: 50vw;
+}
+.record input {
+  color: #333;
+}
+.record input::placeholder {
+  color: grey;
+  width: auto;
+}
+.record button {
+  box-sizing: border-box;
+  margin: 5px;
+  padding: 2px;
+  border-radius: 2px;
+}

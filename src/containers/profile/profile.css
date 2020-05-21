@@ -1,0 +1,10 @@
+.profile {
+  height: 90vh;
+  overflow: scroll;
+  box-sizing: border-box;
+  margin: 0 auto;
+}
+#draw {
+  height: 60vh;
+  width: 60vw;
+}
