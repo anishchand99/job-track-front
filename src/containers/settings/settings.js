@@ -46,7 +46,7 @@ class Settings extends Component {
         'Password must be at least 7 characters';
       return;
     }
-    fetch('http://localhost:3005/updateCredentials', {
+    fetch('https://hidden-tundra-18901.herokuapp.com/updateCredentials', {
       method: 'put',
       headers: { 'Content-Type': 'application/json' },
       body: JSON.stringify({

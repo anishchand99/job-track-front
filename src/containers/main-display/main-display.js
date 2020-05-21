@@ -68,7 +68,7 @@ class MainDisplay extends Component {
   };
 
   getRecords = () => {
-    fetch('http://localhost:3005/getRecords', {
+    fetch('https://hidden-tundra-18901.herokuapp.com/getRecords', {
       method: 'post',
       headers: { 'Content-Type': 'application/json' },
       body: JSON.stringify({
@@ -85,7 +85,7 @@ class MainDisplay extends Component {
   };
 
   addRecords = (tableRowObject) => {
-    fetch('http://localhost:3005/addRecords', {
+    fetch('https://hidden-tundra-18901.herokuapp.com/addRecords', {
       method: 'post',
       headers: { 'Content-Type': 'application/json' },
       body: JSON.stringify({
@@ -136,7 +136,7 @@ class MainDisplay extends Component {
         }
       }
       //send the records list to the server side
-      fetch('http://localhost:3005/updateRecords', {
+      fetch('https://hidden-tundra-18901.herokuapp.com/updateRecords', {
         method: 'put',
         headers: { 'Content-Type': 'application/json' },
         body: JSON.stringify({
@@ -168,7 +168,7 @@ class MainDisplay extends Component {
     document.body.style = '  background-color: #e0bbe4; ';
     document.body.style.pointerEvents = 'all';
     //send the records list to the server side to delete from list
-    fetch('http://localhost:3005/deleteRecords', {
+    fetch('https://hidden-tundra-18901.herokuapp.com/deleteRecords', {
       method: 'post',
       headers: { 'Content-Type': 'application/json' },
       body: JSON.stringify({

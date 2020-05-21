@@ -58,7 +58,7 @@ class Profile extends Component {
     this.lineOptions = lineOptions;
   }
   async componentDidMount() {
-    await fetch('http://localhost:3005/getGraphs', {
+    await fetch('https://hidden-tundra-18901.herokuapp.com/getGraphs', {
       method: 'post',
       headers: { 'Content-Type': 'application/json' },
       body: JSON.stringify({

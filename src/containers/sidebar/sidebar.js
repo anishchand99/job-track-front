@@ -23,7 +23,7 @@ class Sidebar extends Component {
       this.addBoxRef.current.classList.add('reveal');
     });
     //get the existing ListNames from the server
-    fetch('http://localhost:3005/getList', {
+    fetch('https://hidden-tundra-18901.herokuapp.com/getList', {
       method: 'post',
       headers: { 'Content-Type': 'application/json' },
       body: JSON.stringify({

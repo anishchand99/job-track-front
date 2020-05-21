@@ -29,7 +29,7 @@ class addDialog extends Component {
   addItem = () => {
     const { addList } = this.props;
     //send the created list to the server side
-    fetch('http://localhost:3005/addList', {
+    fetch('https://hidden-tundra-18901.herokuapp.com/addList', {
       method: 'post',
       headers: { 'Content-Type': 'application/json' },
       body: JSON.stringify({
