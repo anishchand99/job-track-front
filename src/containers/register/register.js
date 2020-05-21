@@ -48,7 +48,7 @@ class Register extends Component {
       this.confirmRef.current.placeholder = 'Password must be a match';
       return;
     }
-    fetch('https://hidden-tundra-18901.herokuapp.com/register', {
+    fetch('https://evening-taiga-71052.herokuapp.com/register', {
       method: 'post',
       headers: { 'Content-Type': 'application/json' },
       body: JSON.stringify({
