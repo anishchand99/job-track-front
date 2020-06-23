@@ -2,7 +2,7 @@
 
 The project was bootstrapped by React. Download the project and hit npm install to install the dependencies. After installation, hit npm start to run the project on a web browser.
 
-This project was as a web app to keep track of job applications during the job search process. The site can be accessed live at the link below: 
+This project was built as a web app to keep track of job applications during the job search process. The site can be accessed live at the link below: 
 
 <i>https://job-track-app2020.herokuapp.com/</i>
 
