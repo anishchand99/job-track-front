@@ -6,6 +6,10 @@ This project was as a web app to keep track of job applications during the job s
 
 <i>https://job-track-app2020.herokuapp.com/</i>
 
+[a look inside](/jobtrack.png)
+[stats](/jobtrack2.png)
+
+
 **Brief Highlights of the project:**
 <ul>
 <li>Secure login with using bcrypt. </li>
