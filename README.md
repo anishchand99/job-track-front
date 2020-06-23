@@ -6,8 +6,9 @@ This project was as a web app to keep track of job applications during the job s
 
 <i>https://job-track-app2020.herokuapp.com/</i>
 
-[a look inside](/jobtrack.png)
-[stats](/jobtrack2.png)
+[Image of the Dashboard after login](/jobtrack.png)
+
+[Image of the stats visualizer](/jobtrack2.png)
 
 
 **Brief Highlights of the project:**
